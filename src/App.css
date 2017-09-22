@@ -1,0 +1,38 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1446889727648-8c23e3039b24?dpr=1&auto=format&fit=crop&w=1500&h=1342&q=80&cs=tinysrgb&crop=');
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.jumbotron {
+  background-color: #8fc4fb;
+  opacity: 0.9;
+}
+
+.App {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.App-title {
+  font-size: 50px;
+}
+
+.Clock-days,
+.Clock-hours,
+.Clock-minutes,
+.Clock-seconds {
+  display: inline;
+  margin: 10px;
+}
+
+.Deadline-input {
+  font-size: 25px;
+  margin: 5px;
+}
